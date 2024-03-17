@@ -202,7 +202,7 @@ const handleInputChange = (event) => {
         ) : (
         <ul>
           {tasks.map((task) => (
-            <li key={task.id} style={{display:'flex',gap:'20px', border:'2px solid #927fbf', margin:'10px',padding:'10px', alignItems:'center'}}>
+            <li key={task.id} style={{display:'flex',gap:'10px', border:'2px solid #927fbf', margin:'10px',padding:'10px', alignItems:'center'}}>
               <div className="checkbox-wrapper-12">
               <div className="cbx">
                 <input

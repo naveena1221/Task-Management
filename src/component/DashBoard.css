@@ -91,7 +91,7 @@
     font-weight:bold;
     border-radius: 7px;
   }
- /* checkbox */
+
  .checkbox-wrapper-12 {
     position: relative;
   }
@@ -224,75 +224,4 @@
       box-shadow: 0 -36px 0 -10px transparent, 32px -16px 0 -10px transparent, 32px 16px 0 -10px transparent, 0 36px 0 -10px transparent, -32px 16px 0 -10px transparent, -32px -16px 0 -10px transparent;
     }
   }
-  @media screen and (max-width: 768px) {
-    .sidebar {
-      width: 200px;
-    }
   
-    .input {
-      max-width: 120px;
-    }
-  
-    .task-item .description {
-      width: calc(100% - 150px);
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .sidebar {
-      width: 100%;
-    }
-  
-    .input {
-      max-width: 100%;
-    }
-  
-    .task-item {
-      flex-direction: column;
-    }
-  
-    .task-item .description {
-      width: 100%;
-    }
-  
-    .task-item .date-priority,
-    .task-item .actions {
-      flex-direction: row;
-    }
-}
-@media screen and (max-width: 768px) {
-  .sidebar {
-    width: 200px;
-  }
-
-  .input {
-    max-width: 120px;
-  }
-
-  .task-item .description {
-    width: calc(100% - 150px);
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .sidebar {
-    width: 100%;
-  }
-
-  .input {
-    max-width: 100%;
-  }
-
-  .task-item {
-    flex-direction: column;
-  }
-
-  .task-item .description {
-    width: 100%;
-  }
-
-  .task-item .date-priority,
-  .task-item .actions {
-    flex-direction: row;
-  }
-}
