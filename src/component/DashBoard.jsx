@@ -49,7 +49,7 @@ const handleInputChange = (event) => {
 
   if (status === 'upcoming') {
     const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 1);
+    tomorrow.setDate(tomorrow.getDate());
     filteredTasks = storedTasks.filter(
       (task) => new Date(task.date) >= tomorrow && !task.completed
     );
