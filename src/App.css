@@ -5,5 +5,5 @@ body{
   background: #363b4e;
   color: #c4bbf0;
   height: 100% auto;
-  
+  overflow-y: hidden;
 }
